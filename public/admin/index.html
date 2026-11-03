@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="id">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex,nofollow">
+<title>Dashboard | Bali Solution Building</title>
+<link rel="icon" href="/favicon.svg" type="image/svg+xml">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700&family=Poppins:wght@400;500&display=swap">
+<link rel="stylesheet" href="/admin/admin.css">
+</head>
+<body>
+<div id="login" class="login" hidden>
+  <form id="loginForm" class="login-box">
+    <h1>Dashboard</h1>
+    <p>Masuk untuk mengelola proyek dan foto di situs Bali Solution Building.</p>
+    <label>Password<input type="password" name="password" autocomplete="current-password" required autofocus></label>
+    <p class="err" id="loginErr" role="alert" hidden></p>
+    <button class="btn primary" type="submit">Masuk</button>
+  </form>
+</div>
+
+<div id="app" class="app" hidden>
+  <aside class="side">
+    <div class="side-brand">Bali Solution Building</div>
+    <nav id="tabs" aria-label="Menu dashboard"></nav>
+    <div class="side-foot">
+      <a href="/" target="_blank" rel="noopener">Lihat situs</a>
+      <button id="logout" class="linklike" type="button">Keluar</button>
+    </div>
+  </aside>
+  <main class="main" id="main" tabindex="-1"></main>
+</div>
+<div id="toast" class="toast" role="status" aria-live="polite" hidden></div>
+<script src="/js/pano.js"></script>
+<script src="/admin/admin.js"></script>
+</body>
+</html>

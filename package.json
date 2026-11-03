@@ -1,0 +1,18 @@
+{
+  "name": "bali-solution-building-website",
+  "version": "1.0.0",
+  "description": "Website Bali Solution Building: hero scroll-konstruksi, tur 360° dan dashboard admin. Tanpa framework.",
+  "private": true,
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "seed": "node scripts/seed.js",
+    "test": "node scripts/smoke-test.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "optionalDependencies": {
+    "sharp": ">=0.33.0"
+  }
+}
